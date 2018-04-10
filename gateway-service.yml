@@ -10,15 +10,18 @@ zuul:
     friend:
         path: /friend/**
         sensitiveHeaders:
-        url: http://player-service:8085/friend
+        serviceId: player-service
+        stripPrefix: false
     actionEffectTypes:
         path: /actionEffectTypes/**
         sensitiveHeaders:
         serviceId: hero-service
+        stripPrefix: false
     heroTypes:
         path: /heroTypes/**
         sensitiveHeaders:
         serviceId: hero-service
+        stripPrefix: false
     heroTypeTypes:
         path: /heroTypeTypes/**
         sensitiveHeaders:
@@ -36,47 +39,58 @@ zuul:
     battleHero:
         path: /battleHero/**
         sensitiveHeaders:
-        url: http://battle-service:8081/battleHero
+        serviceId: battle-service
+        stripPrefix: false
     formation:
         path: /formation/**
         sensitiveHeaders:
-        url: http://battle-service:8081/formation
+        serviceId: battle-service
+        stripPrefix: false
     user:
         path: /user/**
         sensitiveHeaders:
-        url: http://player-service:8085/user
+        serviceId: player-service
+        stripPrefix: false
     userResource:
         path: /userResource/**
         sensitiveHeaders:
-        url: http://player-service:8085/userResource
+        serviceId: player-service
+        stripPrefix: false
     mail:
         path: /mail/**
         sensitiveHeaders:
-        url: http://mail-service:8084/mail
+        serviceId: mail-service
+        stripPrefix: false
     battle:
         path: /battle/**
         sensitiveHeaders:
-        url: http://battle-service:8081/battle
+        serviceId: battle-service
+        stripPrefix: false
     shop:
         path: /shop/**
         sensitiveHeaders:
-        url: http://shop-service:8086/shop
+        serviceId: shop-service
+        stripPrefix: false
     chat:
         path: /chat/**
         sensitiveHeaders:
-        url: http://chat-service:8083/chat
+        serviceId: chat-service
+        stripPrefix: false
     pvp:
         path: /pvp/**
         sensitiveHeaders:
-        url: http://player-service:8085/pvp
+        serviceId: player-service
+        stripPrefix: false
     guild:
         path: /guild/**
         sensitiveHeaders:
-        url: http://guild-service:8087/guild
+        serviceId: guild-service
+        stripPrefix: false
     guildMember:
         path: /guildMember/**
         sensitiveHeaders:
-        url: http://guild-service:8087/guildMember
+        serviceId: guild-service
+        stripPrefix: false
     
 #Spring Boot Config            
 spring:
