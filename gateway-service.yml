@@ -10,71 +10,71 @@ zuul:
     friend:
         path: /friend/**
         sensitiveHeaders:
-        url: http://player-service:8085/friend
+        url: http://PLAYER-SERVICE:8085/friend
     actionEffectTypes:
         path: /actionEffectTypes/**
         sensitiveHeaders:
-        url: http://hero-service:8082/actionEffectTypes
+        url: http://HERO-SERVICE:8082/actionEffectTypes
     heroTypes:
         path: /heroTypes/**
         sensitiveHeaders:
-        url: http://hero-service:8082/heroTypes
+        url: http://HERO-SERVICE:8082/heroTypes
     heroTypeTypes:
         path: /heroTypeTypes/**
         sensitiveHeaders:
-        url: http://hero-service:8082/heroTypeTypes
+        url: http://HERO-SERVICE:8082/heroTypeTypes
     heroType:
         path: /heroType/**
         sensitiveHeaders:
-        url: http://hero-service:8082/heroType
+        url: http://HERO-SERVICE:8082/heroType
     hero:
         path: /hero/**
         sensitiveHeaders:
-        url: http://hero-service:8082/hero
+        url: http://HERO-SERVICE:8082/hero
     battleHero:
         path: /battleHero/**
         sensitiveHeaders:
-        url: http://battle-service:8081/battleHero
+        url: http://BATTLE-SERVICE:8081/battleHero
     formation:
         path: /formation/**
         sensitiveHeaders:
-        url: http://battle-service:8081/formation
+        url: http://BATTLE-SERVICE:8081/formation
     user:
         path: /user/**
         sensitiveHeaders:
-        url: http://player-service:8085/user
+        url: http://PLAYER-SERVICE:8085/user
     userResource:
         path: /userResource/**
         sensitiveHeaders:
-        url: http://player-service:8085/userResource
+        url: http://PLAYER-SERVICE:8085/userResource
     mail:
         path: /mail/**
         sensitiveHeaders:
-        url: http://mail-service:8084/mail
+        url: http://MAIL-SERVICE:8084/mail
     battle:
         path: /battle/**
         sensitiveHeaders:
-        url: http://battle-service:8081/battle
+        url: http://BATTLE-SERVICE:8081/battle
     shop:
         path: /shop/**
         sensitiveHeaders:
-        url: http://shop-service:8086/shop
+        url: http://SHOP-SERVICE:8086/shop
     chat:
         path: /chat/**
         sensitiveHeaders:
-        url: http://chat-service:8083/chat
+        url: http://CHAT-SERVICE:8083/chat
     pvp:
         path: /pvp/**
         sensitiveHeaders:
-        url: http://player-service:8085/pvp
+        url: http://PLAYER-SERVICE:8085/pvp
     guild:
         path: /guild/**
         sensitiveHeaders:
-        url: http://guild-service:8087/guild
+        url: http://GUILD-SERVICE:8087/guild
     guildMember:
         path: /guildMember/**
         sensitiveHeaders:
-        url: http://guild-service:8087/guildMember
+        url: http://GUILD-SERVICE:8087/guildMember
     
 #Spring Boot Config            
 spring:
