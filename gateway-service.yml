@@ -23,9 +23,10 @@ zuul:
         serviceId: hero-service
         stripPrefix: false
     heroTypeTypes:
-        path: /heroTypes/**
+        path: /heroTypeTypes/**
         sensitiveHeaders:
         serviceId: hero-service
+        stripPrefix: false
     heroType:
         path: /heroType/**
         sensitiveHeaders:
