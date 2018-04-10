@@ -14,7 +14,7 @@ zuul:
     actionEffectTypes:
         path: /actionEffectTypes/**
         sensitiveHeaders:
-        url: http://hero-service:8082/actionEffectTypes
+        serviceId: hero-service
     heroTypes:
         path: /heroTypes/**
         sensitiveHeaders:
@@ -27,10 +27,12 @@ zuul:
         path: /heroType/**
         sensitiveHeaders:
         serviceId: hero-service
+        stripPrefix: false
     hero:
         path: /hero/**
         sensitiveHeaders:
         serviceId: hero-service
+        stripPrefix: false
     battleHero:
         path: /battleHero/**
         sensitiveHeaders:
